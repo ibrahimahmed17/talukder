@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@700&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	background: #fff;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sec-padding{
+	padding: 40px 0;
+}
+
+.menu ul{
+	display: flex;
+	justify-content: flex-end;
+}
+.menu li a{
+	color: #454444;
+	font-size: 20px;
+	padding: 0 20px;
+	text-transform: capitalize;
+	font-family: 'Oswald', sans-serif;
+}
+/*-----------headding-sec-end-------*/
+
+.banner-sec{
+	background: url(../images/strict.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding: 215px 0 90px;
+}
+.banner-txt{
+	text-align: center;
+}
+.banner-txt h1{
+	font-size: 120px;
+	color: #fff;
+	text-transform: uppercase;	
+}
+.banner-txt p{
+	color: #fff;
+	font-size: 20px;
+	border-top: 2px solid #15a4fa;
+	display: inline-block;
+	padding: 40px 15px 65px;
+	margin-bottom: 65px 0;
+}
+.banner-buttons{
+	text-align: center;
+
+}
+.banner-buttons a:first-child{
+	border: 1px solid #15a4fa;
+	padding: 20px 35px;
+	color: #fff;
+	font-size: 18px;
+}
+.banner-buttons a:last-child{
+	display: block;
+	margin-top: 175px;
+	color: #fff;
+	font-size: 35px;
+}
+.icon-bar{
+	display: none;
+}
+/*----------banner-sec-end---------------*/
+
+.about-sec{
+	background: #f6f9f9;
+	padding: 80px 0 110px;
+	text-align: center;
+
+}
+.about-txt h3{
+	color: #2d3950;
+	font-size: 40px;
+	margin-bottom: 30px;
+
+}
+.about-txt p{
+	color: #999999;
+	font-size: 20px;
+}
+/*--------about-sec-end---------*/
+
+.service-sec{
+	background: #ffffff;
+	padding: 65px 0;
+	text-align: center;
+}
+.ser-icon{
+	width: 100px;
+	height: 100px;
+	background: linear-gradient( 90deg,#48baff 50%,#5fc3ff 50%);
+	margin: 0 auto 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+.ser-icon i{
+	color: #fff;
+	font-size: 40px;
+}
+.ser-txt h4{
+	color: #2d3950;
+	font-size: 22px;
+}
+.ser-txt p{
+	color: #999999;
+	font-size: 15px;
+	margin-top: 25px ;
+}
+/*-------service-sec-end---------*/
+
+.work-sec{
+	background: #f6f9f9;
+	padding: 80px 0;
+}
+.work-txt{}
+.work-txt h3{
+	color: #2d3950;
+	font-size: 40px;
+	margin-bottom: 10px;
+	text-align: center;
+
+} 
+.work-txt p{
+	color: #999999;
+	font-size: 20px;
+	text-align: center;
+}
+.team-member{
+	padding: 20px;
+}
+.team-img {
+	position: relative;
+}
+.team-img img{
+	width: 100%;
+}
+.team-hov{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(21, 161, 250, 0.9);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: .8s;
+
+
+}
+.team-hov ul{
+		display: flex;
+}
+.team-hov ul li{
+		margin: 0 10px;
+}
+.team-hov ul li a{
+	padding: 10px 10px ;
+	border: 2px solid #fff;
+	color: #fff;
+}
+.team-hov:hover{
+	opacity: 1;
+}
+/*------work-sec-end-----*/
+
+.contact-txt h4{
+	color: #fff;
+	font-size: 41px;
+	text-align: center;
+	font-weight: bold;
+}
+.contact-txt p{
+	color: #999999;
+	font-size: 15px;
+	text-align: center;
+}
+.contact-are{
+	background: url(../images/pic-7.png);
+	background-size: cover;
+	background-position: center;
+}
+.contact-overlay{
+	background: rgba(43, 54, 75, 0.9);
+	padding: 75px 0;
+}
+.contact-form{
+	width: 40%;
+	margin: auto;
+}
+.input-box{
+	padding: 10px 0;
+}
+.input-box input{
+	width: 100%;
+	border: 1px solid #999;
+	background: transparent;
+	padding: 20px 10px;
+}
+.input-box textarea{
+	width: 100%;
+	border: 1px solid #999;
+	background: transparent;
+	padding: 20px 10px;
+}
+::placeholder{
+	font-family: 'Lato', sans-serif;
+	color: #999999;
+}
+.form-bottom{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.left{
+	
+}
+.left label{
+	color: #fff;
+	font-size: 15px;
+	margin-left: 5px;
+}
+.send{}
+.send input{
+	font-size: 18px;
+	border: 1px solid #15a3f9;
+	padding: 6px 35px;
+	color: #fff;
+	background: transparent;
+}
+/*--------contact-arae-end-----------*/
+footer{
+	padding: 40px 0;
+	background: #fff;
+}
+.footer-txt h6{
+	color: #999999;
+	font-size: 15px;
+	margin-bottom: 0 0 15px 0;
+}
+.footer-icon{
+	
+}
+.footer-icon ul{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.footer-icon ul li a{
+			padding: 10px;
+			border: 1px solid #15a4fa;
+			margin: 0 10px;
+			background: #15a4fa;
+			color: #fff;
+			border-radius: 5px;
+}
+/*-----------footer-end---------*/
+.header-ser{
+	background: #b2bec3;
+	color: black;
+}
+.service-txt h2{
+	color: #e17055;
+	font-weight: bold;
+	text-align: center;
+	padding: 40px 0;
+	font-size: 40px;
+}
+.foot{
+	background: #ffeaa7;
+}

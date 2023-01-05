@@ -1,0 +1,54 @@
+@media(max-width: 991px){
+
+	header{
+		position: relative;
+	}
+				
+		.menu{
+			background:#dcdde1;
+			position: absolute;
+			top: 100%;
+			left: 0;
+			width: 50%;
+			display: none;
+			border-radius: 5px;
+		}
+		.menu ul{
+			display: block;
+ 
+		}
+		.menu ul li a{
+				padding: 10px 20px;
+				display: block;
+		}
+		.icon-bar{
+			display: block ;
+			text-align: right;
+		}
+		.icon-bar i{
+			font-size: 25px;
+		}
+		.contact-form{
+			width: 100%;
+		}
+
+}
+@media(max-width: 575px){
+	.banner-txt h1{
+		font-size: 60px;
+	}
+	.left{
+		font-size: 10px;
+	}
+	
+}
+@media(max-width: 400px){
+	.footer-icon ul li a{
+			padding: 10px;
+			border: 1px solid #15a4fa;
+			margin: 0 5px;
+			background: #15a4fa;
+			color: #fff;
+			border-radius: 5px;
+	}
+}
